@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Music Glaxy Ragistration</title>
+</head>
+<body>
+    <div class="form">
+    <form action="">
+        <h1>Music Galaxy Ragistration Form</h1>
+        <hr>
+        <h2>Contact From</h2>
+        <p>Name: <input type="text" name="name" placeholder="Enter your name"></p>
+        <fieldset>
+        <p>
+            <Legend>Gender</Legend>
+            Male <input type="radio" name="Gender" id="Male">
+            Female <input type="radio" name="Gender" id="Female">
+        </p>
+        </fieldset>
+        <p>Address: <textarea name="Adreess" id="Address" cols="80" rows="5">Please Enter Your Address</textarea></p>
+        <p> Mail <input type="email" name="Email" id="Email"></p>
+        <p>Pincode <input type="number" name="pincode" id="pincode"></p>
+        <hr>
+         <h2>Payment Information</h2>
+         <p>Card Type:
+             <select name="Card" id="card type">
+                 <option value="">--Select the card type--</option>
+                 <option value="visa">Visa</option>
+                 <option value="master card">Master Card</option>
+                 <option value="rupay">Rupay</option>
+             </select>
+         </p>
+         <p>
+             Card Number <input type="number" name="card number" id="card number">
+         </p>
+         <p>
+             Expiration Date: <input type="date" name="expiration date" id="expiration date">
+         </p>
+         <p>
+             CVV <input type="password" name="cvv" id="cvv">
+         </p>
+         <input type="submit" value="Pay Now">
+    </form>
+    </div>
+</body>
+</html>
